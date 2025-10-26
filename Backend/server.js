@@ -14,7 +14,7 @@ const app = express();
 const PORT = process.env.PORT || 8080;
 const MONGO_CONN = process.env.MONGO_CONN;
 const JWT_SECRET = process.env.JWT_SECRET || 'development_jwt_secret_change_me';
-const GEMINI_API_KEY = process.env.GEMINI_API_KEY || "AIzaSyDwUmrcHJMrrFZ7EOLZgdjNTbj4I8hCXac";
+const GEMINI_API_KEY = process.env.GEMINI_API_KEY ;
 const GEMINI_MODEL = process.env.GEMINI_MODEL || 'gemini-2.5-flash';
 
 // Middleware
