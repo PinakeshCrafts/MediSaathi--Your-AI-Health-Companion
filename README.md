@@ -104,7 +104,7 @@ pip install -r backend/requirements.txt
 
 ```bash
 # from repository root
-uvicorn backend.fastapi:app --reload --host 0.0.0.0 --port 8000
+python -m uvicorn Backend.fastapi:app --reload --host 0.0.0.0 --port 8000
 ```
 
 > If `start.sh` exists and is configured, you may use `bash backend/start.sh` to run with your environment variables.
